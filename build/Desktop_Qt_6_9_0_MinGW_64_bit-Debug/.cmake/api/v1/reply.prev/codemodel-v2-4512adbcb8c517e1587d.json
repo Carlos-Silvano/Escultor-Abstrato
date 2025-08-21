@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0787bc6a64ef2d0ee52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projeto3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Projeto3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Projeto3-Debug-48a6bcf3ab70ccb1311a.json",
+					"name" : "Projeto3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Projeto3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Projeto3_autogen-Debug-2a40297d8696de16f7fa.json",
+					"name" : "Projeto3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Projeto3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Projeto3_autogen_timestamp_deps-Debug-42f758803fc27c5c52a5.json",
+					"name" : "Projeto3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Administrador/OneDrive/Documentos/Projeto3/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Administrador/OneDrive/Documentos/Projeto3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

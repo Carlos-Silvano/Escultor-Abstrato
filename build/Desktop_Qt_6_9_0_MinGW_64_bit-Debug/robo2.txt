@@ -1,0 +1,77 @@
+# Tamanho
+dim 50 50 50
+
+#---------------Cabeça---------------
+putbox 17 30 17 26 40 28 0.6 0.0 0.0 1
+
+# amarelo
+putbox 18 32 26 25 38 28 1.0 0.84 0.0 1
+putbox 18 38 26 20 40 28 1.0 0.84 0.0 1
+putbox 23 38 26 25 40 28 1.0 0.84 0.0 1
+
+#---------------Olhos-----------------
+putbox 19 36 27 20 36 28 0.5 1.0 1.0 1
+putbox 23 36 27 24 36 28 0.5 1.0 1.0 1
+#----------------Corpo----------------
+putbox 15 15 17 28 30 25 0.6 0.0 0.0 1
+cutbox 15 17 15 16 22 25
+cutbox 27 17 15 28 22 25
+
+#amarelo
+putbox 16 17 17 17 22 25 1 0.84 0.0 1
+putbox 26 17 17 27 22 25 1 0.84 0.0 1
+
+#reator
+putbox 20 25 23 23 28 25 0.5 1.0 1.0 1
+cutsphere 21 26 23 2
+putvoxel 21 26 23 0.4 0.9 1 1
+#----------------Braços-----------------
+# esquerdo
+putbox 10 25 20 14 30 40 0.6 0.0 0.0 1
+#esquerdo amarelo
+putbox 10 29 20 14 30 25 1.0 0.84 0.0 1
+
+# direito
+putbox 30 15 20 34 30 25 0.6 0.0 0.0 1
+#direito amarelo 
+putbox 30 29 20 34 30 25 1.0 0.84 0.0 1
+
+# Reator
+putvoxel 12 27 39 0.5 1.0 1.0 1
+
+# Tiro
+putsphere 12 27 42 2 0.5 1.0 1.0 1
+
+#ombro
+putvoxel 29 28 20 0.6 0.0 0.0 1
+putvoxel 29 28 21 0.6 0.0 0.0 1
+putvoxel 29 28 22 0.6 0.0 0.0 1
+putvoxel 29 28 23 0.6 0.0 0.0 1
+putvoxel 29 28 24 0.6 0.0 0.0 1
+putvoxel 29 28 25 0.6 0.0 0.0 1
+
+putvoxel 29 29 20 0.6 0.0 0.0 1
+putvoxel 29 29 21 0.6 0.0 0.0 1
+putvoxel 29 29 22 0.6 0.0 0.0 1
+putvoxel 29 29 23 0.6 0.0 0.0 1
+putvoxel 29 29 24 0.6 0.0 0.0 1
+putvoxel 29 29 25 0.6 0.0 0.0 1
+
+putvoxel 29 30 20 0.6 0.0 0.0 1
+putvoxel 29 30 21 0.6 0.0 0.0 1
+putvoxel 29 30 22 0.6 0.0 0.0 1
+putvoxel 29 30 23 0.6 0.0 0.0 1
+putvoxel 29 30 24 0.6 0.0 0.0 1
+putvoxel 29 30 25 0.6 0.0 0.0 1
+
+#----------------Pernas-----------------
+
+putellipsoid 17 9 20 3 6 3 0.6 0.0 0.0 1
+putellipsoid 26 9 20 3 6 3 0.6 0.0 0.0 1
+
+# amarelo pernas
+putbox 15 9 22 18 14 23 1.0 0.84 0.0 1
+putbox 25 9 22 28 14 23 1.0 0.84 0.0 1
+
+cutellipsoid 16 3 20 3 2 3
+cutellipsoid 26 3 20 3 2 3
